@@ -1,0 +1,40 @@
+Remaining Things to do:
+
+//1.Profile:
+//-Profile Making Page [Only User] (10th May)
+
+//2.LogOut:
+//-Logout page
+//-Loading Option
+
+//3.Habits:
+//-Create Habit Page [Title,Desc,Start Date, End Date, Freq]
+//-All Habits Page [Title,Desc,Start Date,Progress Bar,End Date]
+
+//4.Diaries:
+//All Diaries (10th May)
+
+//5.ToDo List:
+//-All Lists Page [Date,Title] 
+//-Create List [Title,Date,Writing Space [Habits from the Habit Page, A bullet point after every line enter with a checkbox]
+
+6.Budget:
+-A Single Page with 4 sections
+-Asset [Name,Date,Desc,Amount] Total
+-Liability [Name,Date,Desc,Amount] Total
+-Expense [Name,Date,Desc,Amount] Total
+-Total [Amount][Filtered according to the Filter set in ALE][Or selects himself from the list]
+
+
+7.Mentors:
+-Request a mentor (You choose a mentor from the list and send him a customized email which goes to us and we manually pair the desired one is he is not overburdened) 
+(The User will be able to communicate through Whatsapp with mentor who will be given the credentials of mentor to see.)
+
+
+8. Linkings:
+//- Loading Page
+- Redirecting from Login/SignUp to Profile to Logout and then Login/SignUp...
+- Error Page
+- Headings Size
+
+
