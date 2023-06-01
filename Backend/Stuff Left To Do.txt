@@ -1,0 +1,24 @@
+STUFF DONE:
+- Quran Reader APIs (only declared)
+- No longer doing Hadith APIs
+- Made taskid and todolistid a composite primary key
+- Total is calculated as part of LoadAllBudget, LoadBudgetByDate, LoadBudgetByCategory APIs
+- Removed SubtractSadqahFromBalance API
+- New schemas made: AdminsSchema, UsersMentorsSchema.
+- Prayer Timings, Qibla, Islamic Calendar APIs done.
+- JWT implementation
+- MentorsSchema, UsersSchema: Mentors phone number validation
+- SignUp APIs: ValidatePhoneNumber
+- Login APIs: ValidateAdminLogin, ForgotPassword
+- ToDoListsTasksSchema: habitid as foreign key
+- ToDoLists APIs: FixHabitOnToDoList, AddSadqahToToDoList
+- HabitTracker APIs: LoadHistoryOfHabit
+- Test Quran APIs
+- Insert new user, admin, mentor? Unique userid, mentorid, adminid generation API
+- Emails for contact us and mentor request ---> Amanullah
+- Habits to todo ToDoLists
+
+STUFF LEFT TO DO:
+- ForgotPassword
+
+

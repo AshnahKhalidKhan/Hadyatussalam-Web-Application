@@ -1,0 +1,32 @@
+NPM is a package manager for Node.js packages, or modules if you like. The NPM program is installed on your computer when you install Node.js. www.npmjs.com hosts thousands of free packages to download and use.
+
+When you install a package using a package manager, it is stored in a local node_modules directory in your project.
+
+Generally, you should install your packages in the root directory of your project, where your package.json file is located. This way, all the dependencies required for your project are stored in the same directory. Using the npm install or yarn add command followed by the name of the package you want to install. This will automatically update your package.json file with the new dependency and its version.
+
+
+
+Step by Step Approach:
+
+1. Open the command line interface and tell NPM to download the package you want. Example I want to download a package called "upper-case":
+
+C:\Users\Your Name>npm install upper-case
+
+Now you have downloaded and installed your first package!
+
+2. Now to use it, you can import it in your Javascript code using the require statement.
+
+var Uppercase = require('upper-case');
+
+3. You can then use the imported functions or objects in your code. For example, to use the upper-case which will convert the output "Hello World!" into upper-case letters:
+
+var http = require('http');
+var uc = require('upper-case');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write(uc.upperCase("Hello World!"));
+  res.end();
+}).listen(8080);
+
+
+Note: The exact syntax for importing a package and using its functions or objects may vary depending on the package and the version of Javascript you are using. It's always a good idea to consult the package documentation or examples for specific instructions.
