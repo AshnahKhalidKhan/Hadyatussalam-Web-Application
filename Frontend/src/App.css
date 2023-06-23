@@ -1,0 +1,9 @@
+.App {
+  background-image: url('/public/Pattern.png');
+  background-repeat: repeat;
+  background-color: #fff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
