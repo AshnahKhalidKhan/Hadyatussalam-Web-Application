@@ -1,0 +1,156 @@
+.liabilities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: -130px;
+  }
+  
+  .liabilities-list {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #f6f5f5;
+    border-radius: 20px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .liability-row {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 9px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .liability-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .delete-icon {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+  }
+  
+  .liability-checkbox {
+    margin-right: 20px;
+    width: 34px;
+    height: 34px;
+  }
+  
+  .liability-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .liability-name-date-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .liability-name-date-container input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f6f5f5;
+    width: 50%;
+    margin-right: 15px;
+    font-size: 1.5em;
+  }
+  
+  .liability-name-date-container input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f6f5f5;
+    border: 1px solid #ccc;
+    width: 30%;
+    font-size: 1.5em;
+  }
+  
+  .liability-amount-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f5f5;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    width: 10%;
+  }
+  
+  .liability-amount-wrapper input[type="number"] {
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 1.5em;
+  }
+  
+  .liabilities-total {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .total-label {
+    margin-right: 10px;
+  }
+  
+  .total-amount {
+    background-color: #82AB62;
+    color: rgb(0, 0, 0);
+    padding: 4px 8px;
+    border-radius: 5px;
+  }
+
+  .liability-name-date-container input[type="text"],
+.liability-name-date-container input[type="date"],
+.liability-amount-wrapper input[type="number"] {
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  width: 80%;
+  font-family: 'Alata', sans-serif;
+}
+
+.liabilities-list button {
+  background-color: #82AB62;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  font-family: 'Alata', sans-serif;
+}
+
+.liabilities-list button:hover {
+  background-color: #679452;
+}
+
+.liabilities-list h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  margin-top: -8px;
+  text-align: left;
+  margin-left: 5px;
+}
+

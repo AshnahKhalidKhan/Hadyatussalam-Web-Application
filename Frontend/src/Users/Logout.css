@@ -1,0 +1,27 @@
+.logout-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.logout-page img {
+    width: 280px;  /* You can adjust this value to change the size of the picture */
+    height: auto;
+    opacity: 0.4;  /* You can adjust this value to change the opacity of the picture */
+    margin-top: 130px;
+}
+
+.logout-page p {
+    font-size: 2.2rem;
+    margin: 20px 0;
+}
+
+.logout-page a {
+    color: #82AB62;
+    text-decoration: none;
+    font-size: 1.9rem;
+    margin-top: -20px;
+}

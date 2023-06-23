@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.header-date {
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Noto Kufi Arabic SemiBold', Regular;
+  background-color: #86AFC1;
+  color: #fff;
+  padding: 8px 19px;
+  border-radius: 39px;
+}
+
+.header-buttons button {
+  text-align: center;
+  font-family: 'Alata', Regular;
+  background-color: #82AB62;
+  color: #ffff;
+  border: none;
+  font-size: 19px;
+  margin-left: 10px;
+  padding: 10px 26px;
+  border-radius: 39px;
+  margin-bottom: 10px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  background-color: #6a8a52;
+}
+
+.header-date:hover {
+  background-color: #6d8f9d;
+}
+
+
